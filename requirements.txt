@@ -1,0 +1,9 @@
+alpaca-py
+pandas
+numpy
+schedule
+lxml
+html5lib
+beautifulsoup4
+pytz
+yfinance

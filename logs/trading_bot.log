@@ -1,0 +1,761 @@
+2026-04-07 18:09:14,371 [INFO] __main__ — === Bot starting ===
+2026-04-07 18:09:14,532 [INFO] __main__ — --- Processing AAPL ---
+2026-04-07 18:09:14,673 [INFO] data — Fetched 40 bars for AAPL
+2026-04-07 18:09:14,677 [INFO] strategy — Signal: SELL (SMA9=253.16, SMA21=253.47)
+2026-04-07 18:09:14,712 [INFO] __main__ — No position to exit for AAPL
+2026-04-07 18:09:14,712 [INFO] __main__ — --- Processing TSLA ---
+2026-04-07 18:09:14,759 [INFO] data — Fetched 40 bars for TSLA
+2026-04-07 18:09:14,760 [INFO] strategy — Signal: SELL (SMA9=365.34, SMA21=379.99)
+2026-04-07 18:09:14,796 [INFO] __main__ — No position to exit for TSLA
+2026-04-07 18:09:14,796 [INFO] __main__ — --- Processing NVDA ---
+2026-04-07 18:09:14,842 [INFO] data — Fetched 40 bars for NVDA
+2026-04-07 18:09:14,843 [INFO] strategy — Signal: SELL (SMA9=173.97, SMA21=177.63)
+2026-04-07 18:09:14,874 [INFO] __main__ — No position to exit for NVDA
+2026-04-07 18:09:14,874 [INFO] __main__ — Sleeping 60s...
+
+2026-04-07 19:10:04,649 [INFO] __main__ — === Bot starting ===
+2026-04-07 19:10:04,828 [INFO] __main__ — Market closed, loop exited.
+2026-04-07 19:11:04,917 [INFO] __main__ — Market closed, loop exited.
+2026-04-07 19:12:04,992 [INFO] __main__ — Market closed, loop exited.
+2026-04-07 19:12:20,070 [INFO] __main__ — === Bot starting ===
+2026-04-07 19:12:20,227 [ERROR] __main__ — Loop error: cannot access local variable 'market_closed_logged' where it is not associated with a value
+Traceback (most recent call last):
+  File "/Users/bhanusugguna/Trading/main.py", line 99, in run
+    if not market_closed_logged:
+           ^^^^^^^^^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'market_closed_logged' where it is not associated with a value
+2026-04-07 19:12:20,228 [INFO] __main__ — Sleeping 60s...
+
+2026-04-07 19:12:46,300 [INFO] __main__ — === Bot starting ===
+2026-04-07 19:12:46,464 [INFO] __main__ — Market closed, loop exited. Waiting for market open...
+2026-04-08 08:37:30,875 [INFO] __main__ — === Bot starting ===
+2026-04-08 08:37:31,163 [INFO] __main__ — Market closed, loop exited. Waiting for market open...
+2026-04-08 09:24:32,853 [INFO] __main__ — === Bot starting ===
+2026-04-08 09:24:33,061 [INFO] __main__ — Market closed, loop exited. Waiting for market open...
+2026-04-08 09:30:33,540 [INFO] __main__ — --- Processing AAPL ---
+2026-04-08 09:30:33,705 [INFO] data — Fetched 40 bars for AAPL
+2026-04-08 09:30:33,711 [INFO] strategy — Signal: SELL | SMA9=253.16 SMA21=253.47 | RSI=46.07
+2026-04-08 09:30:33,743 [INFO] __main__ — No position to exit for AAPL
+2026-04-08 09:30:33,743 [INFO] __main__ — --- Processing TSLA ---
+2026-04-08 09:30:33,839 [INFO] data — Fetched 40 bars for TSLA
+2026-04-08 09:30:33,844 [INFO] strategy — Signal: SELL | SMA9=365.34 SMA21=379.99 | RSI=34.15
+2026-04-08 09:30:33,878 [INFO] __main__ — No position to exit for TSLA
+2026-04-08 09:30:33,879 [INFO] __main__ — --- Processing NVDA ---
+2026-04-08 09:30:34,186 [INFO] data — Fetched 40 bars for NVDA
+2026-04-08 09:30:34,190 [INFO] strategy — Signal: SELL | SMA9=173.97 SMA21=177.63 | RSI=49.54
+2026-04-08 09:30:34,223 [INFO] __main__ — No position to exit for NVDA
+2026-04-08 09:30:34,227 [INFO] __main__ — Sleeping 60s...
+
+2026-04-08 09:31:34,374 [INFO] __main__ — --- Processing AAPL ---
+2026-04-08 09:31:34,447 [INFO] data — Fetched 41 bars for AAPL
+2026-04-08 09:31:34,452 [INFO] strategy — Signal: BUY | SMA9=253.74 SMA21=253.37 | RSI=52.10
+2026-04-08 09:31:34,525 [INFO] risk — Position size: 7 shares (equity=$100000.00, price=$257.83)
+2026-04-08 09:31:34,565 [INFO] __main__ — BUY 7x AAPL @ ~$257.83 | SL=$252.67 TP=$268.14
+2026-04-08 09:31:34,568 [INFO] report — Trade logged: BUY 7x AAPL @ $257.83
+2026-04-08 09:31:34,568 [INFO] __main__ — --- Processing TSLA ---
+2026-04-08 09:31:34,626 [INFO] data — Fetched 41 bars for TSLA
+2026-04-08 09:31:34,630 [INFO] strategy — Signal: SELL | SMA9=362.33 SMA21=378.10 | RSI=40.83
+2026-04-08 09:31:34,664 [INFO] __main__ — No position to exit for TSLA
+2026-04-08 09:31:34,665 [INFO] __main__ — --- Processing NVDA ---
+2026-04-08 09:31:34,848 [INFO] data — Fetched 41 bars for NVDA
+2026-04-08 09:31:34,853 [INFO] strategy — Signal: SELL | SMA9=174.60 SMA21=177.71 | RSI=57.05
+2026-04-08 09:31:34,890 [INFO] __main__ — No position to exit for NVDA
+2026-04-08 09:31:34,892 [INFO] __main__ — Sleeping 60s...
+
+2026-04-08 09:32:34,974 [INFO] __main__ — --- Processing AAPL ---
+2026-04-08 09:32:35,045 [INFO] data — Fetched 41 bars for AAPL
+2026-04-08 09:32:35,049 [INFO] strategy — Signal: BUY | SMA9=253.63 SMA21=253.33 | RSI=50.88
+2026-04-08 09:32:35,120 [INFO] risk — Position size: 7 shares (equity=$100000.00, price=$256.89)
+2026-04-08 09:32:35,159 [INFO] __main__ — BUY 7x AAPL @ ~$256.89 | SL=$251.75 TP=$267.17
+2026-04-08 09:32:35,160 [INFO] report — Trade logged: BUY 7x AAPL @ $256.89
+2026-04-08 09:32:35,161 [INFO] __main__ — --- Processing TSLA ---
+2026-04-08 09:32:35,214 [INFO] data — Fetched 41 bars for TSLA
+2026-04-08 09:32:35,219 [INFO] strategy — Signal: SELL | SMA9=361.90 SMA21=377.91 | RSI=38.85
+2026-04-08 09:32:35,257 [INFO] __main__ — No position to exit for TSLA
+2026-04-08 09:32:35,257 [INFO] __main__ — --- Processing NVDA ---
+2026-04-08 09:32:35,301 [INFO] data — Fetched 41 bars for NVDA
+2026-04-08 09:32:35,306 [INFO] strategy — Signal: SELL | SMA9=174.52 SMA21=177.68 | RSI=56.35
+2026-04-08 09:32:35,341 [INFO] __main__ — No position to exit for NVDA
+2026-04-08 09:32:35,343 [INFO] __main__ — Sleeping 60s...
+
+2026-04-08 09:33:35,425 [INFO] __main__ — --- Processing AAPL ---
+2026-04-08 09:33:35,490 [INFO] data — Fetched 41 bars for AAPL
+2026-04-08 09:33:35,502 [INFO] strategy — Signal: BUY | SMA9=253.63 SMA21=253.32 | RSI=50.80
+2026-04-08 09:33:35,570 [INFO] risk — Position size: 7 shares (equity=$100000.00, price=$256.83)
+2026-04-08 09:33:35,611 [INFO] __main__ — BUY 7x AAPL @ ~$256.83 | SL=$251.69 TP=$267.1
+2026-04-08 09:33:35,613 [INFO] report — Trade logged: BUY 7x AAPL @ $256.83
+2026-04-08 09:33:35,613 [INFO] __main__ — --- Processing TSLA ---
+2026-04-08 09:33:35,664 [INFO] data — Fetched 41 bars for TSLA
+2026-04-08 09:33:35,668 [INFO] strategy — Signal: SELL | SMA9=361.91 SMA21=377.92 | RSI=38.91
+2026-04-08 09:33:35,707 [INFO] __main__ — No position to exit for TSLA
+2026-04-08 09:33:35,707 [INFO] __main__ — --- Processing NVDA ---
+2026-04-08 09:33:35,755 [INFO] data — Fetched 41 bars for NVDA
+2026-04-08 09:33:35,759 [INFO] strategy — Signal: SELL | SMA9=174.53 SMA21=177.68 | RSI=56.44
+2026-04-08 09:33:35,793 [INFO] __main__ — No position to exit for NVDA
+2026-04-08 09:33:35,795 [INFO] __main__ — Sleeping 60s...
+
+2026-04-08 09:36:39,024 [INFO] __main__ — === Bot starting ===
+2026-04-08 09:36:39,222 [INFO] __main__ — --- Processing AAPL ---
+2026-04-08 09:36:39,339 [INFO] data — Fetched 41 bars for AAPL
+2026-04-08 09:36:39,343 [INFO] strategy — Signal: BUY | SMA9=253.74 SMA21=253.37 | RSI=52.12
+2026-04-08 09:36:39,375 [INFO] __main__ — HOLD AAPL — already in position or max positions reached
+2026-04-08 09:36:39,375 [INFO] __main__ — --- Processing TSLA ---
+2026-04-08 09:36:39,433 [INFO] data — Fetched 41 bars for TSLA
+2026-04-08 09:36:39,436 [INFO] strategy — Signal: SELL | SMA9=362.03 SMA21=377.97 | RSI=39.48
+2026-04-08 09:36:39,466 [INFO] __main__ — No position to exit for TSLA
+2026-04-08 09:36:39,466 [INFO] __main__ — --- Processing NVDA ---
+2026-04-08 09:36:39,510 [INFO] data — Fetched 41 bars for NVDA
+2026-04-08 09:36:39,512 [INFO] strategy — Signal: SELL | SMA9=174.61 SMA21=177.72 | RSI=57.11
+2026-04-08 09:36:39,551 [INFO] __main__ — No position to exit for NVDA
+2026-04-08 09:36:39,553 [INFO] __main__ — Sleeping 60s...
+
+2026-04-08 09:37:39,629 [INFO] __main__ — --- Processing AAPL ---
+2026-04-08 09:37:39,681 [INFO] data — Fetched 41 bars for AAPL
+2026-04-08 09:37:39,684 [INFO] strategy — Signal: BUY | SMA9=253.68 SMA21=253.35 | RSI=51.44
+2026-04-08 09:37:39,718 [INFO] __main__ — HOLD AAPL — already in position or max positions reached
+2026-04-08 09:37:39,718 [INFO] __main__ — --- Processing TSLA ---
+2026-04-08 09:37:39,760 [INFO] data — Fetched 41 bars for TSLA
+2026-04-08 09:37:39,762 [INFO] strategy — Signal: SELL | SMA9=362.06 SMA21=377.98 | RSI=39.60
+2026-04-08 09:37:39,800 [INFO] __main__ — No position to exit for TSLA
+2026-04-08 09:37:39,801 [INFO] __main__ — --- Processing NVDA ---
+2026-04-08 09:37:39,841 [INFO] data — Fetched 41 bars for NVDA
+2026-04-08 09:37:39,844 [INFO] strategy — Signal: SELL | SMA9=174.59 SMA21=177.71 | RSI=56.99
+2026-04-08 09:37:39,876 [INFO] __main__ — No position to exit for NVDA
+2026-04-08 09:37:39,877 [INFO] __main__ — Sleeping 60s...
+
+2026-04-08 09:38:40,035 [INFO] __main__ — --- Processing AAPL ---
+2026-04-08 09:38:40,095 [INFO] data — Fetched 41 bars for AAPL
+2026-04-08 09:38:40,100 [INFO] strategy — Signal: BUY | SMA9=253.65 SMA21=253.33 | RSI=51.03
+2026-04-08 09:38:40,138 [INFO] __main__ — HOLD AAPL — already in position or max positions reached
+2026-04-08 09:38:40,138 [INFO] __main__ — --- Processing TSLA ---
+2026-04-08 09:38:40,189 [INFO] data — Fetched 41 bars for TSLA
+2026-04-08 09:38:40,193 [INFO] strategy — Signal: SELL | SMA9=362.04 SMA21=377.97 | RSI=39.52
+2026-04-08 09:38:40,227 [INFO] __main__ — No position to exit for TSLA
+2026-04-08 09:38:40,227 [INFO] __main__ — --- Processing NVDA ---
+2026-04-08 09:38:40,283 [INFO] data — Fetched 41 bars for NVDA
+2026-04-08 09:38:40,288 [INFO] strategy — Signal: SELL | SMA9=174.52 SMA21=177.68 | RSI=56.35
+2026-04-08 09:38:40,320 [INFO] __main__ — No position to exit for NVDA
+2026-04-08 09:38:40,322 [INFO] __main__ — Sleeping 60s...
+
+2026-04-08 09:40:01,864 [INFO] __main__ — === Bot starting ===
+2026-04-08 09:40:02,086 [INFO] __main__ — --- Processing AAPL ---
+2026-04-08 09:40:02,207 [INFO] data — Fetched 41 bars for AAPL
+2026-04-08 09:40:02,211 [INFO] strategy — Signal: BUY | SMA9=253.62 SMA21=253.32 | RSI=50.76
+2026-04-08 09:40:02,282 [INFO] risk — Position size: 7 shares (equity=$99981.61, price=$256.81)
+2026-04-08 09:40:02,340 [INFO] __main__ — BUY 7x AAPL @ ~$256.81 | SL=$251.67 TP=$267.08
+2026-04-08 09:40:02,342 [INFO] report — Trade logged: BUY 7x AAPL @ $256.81
+2026-04-08 09:40:02,342 [INFO] __main__ — --- Processing TSLA ---
+2026-04-08 09:40:02,400 [INFO] data — Fetched 41 bars for TSLA
+2026-04-08 09:40:02,405 [INFO] strategy — Signal: SELL | SMA9=361.92 SMA21=377.92 | RSI=38.95
+2026-04-08 09:40:02,474 [INFO] __main__ — No position to exit for TSLA
+2026-04-08 09:40:02,474 [INFO] __main__ — --- Processing NVDA ---
+2026-04-08 09:40:02,533 [INFO] data — Fetched 41 bars for NVDA
+2026-04-08 09:40:02,538 [INFO] strategy — Signal: SELL | SMA9=174.47 SMA21=177.66 | RSI=55.85
+2026-04-08 09:40:02,574 [INFO] __main__ — No position to exit for NVDA
+2026-04-08 09:40:02,576 [INFO] __main__ — Sleeping 60s...
+
+2026-04-08 09:41:02,666 [INFO] __main__ — --- Processing AAPL ---
+2026-04-08 09:41:02,730 [INFO] data — Fetched 41 bars for AAPL
+2026-04-08 09:41:02,737 [INFO] strategy — Signal: BUY | SMA9=253.60 SMA21=253.31 | RSI=50.45
+2026-04-08 09:41:02,773 [INFO] __main__ — HOLD AAPL — already in position or max positions reached
+2026-04-08 09:41:02,773 [INFO] __main__ — --- Processing TSLA ---
+2026-04-08 09:41:02,817 [INFO] data — Fetched 41 bars for TSLA
+2026-04-08 09:41:02,822 [INFO] strategy — Signal: SELL | SMA9=362.03 SMA21=377.97 | RSI=39.49
+2026-04-08 09:41:02,858 [INFO] __main__ — No position to exit for TSLA
+2026-04-08 09:41:02,859 [INFO] __main__ — --- Processing NVDA ---
+2026-04-08 09:41:02,906 [INFO] data — Fetched 41 bars for NVDA
+2026-04-08 09:41:02,911 [INFO] strategy — Signal: SELL | SMA9=174.45 SMA21=177.65 | RSI=55.66
+2026-04-08 09:41:02,950 [INFO] __main__ — No position to exit for NVDA
+2026-04-08 09:41:02,951 [INFO] __main__ — Sleeping 60s...
+
+2026-04-08 09:42:03,048 [INFO] __main__ — --- Processing AAPL ---
+2026-04-08 09:42:03,118 [INFO] data — Fetched 41 bars for AAPL
+2026-04-08 09:42:03,123 [INFO] strategy — Signal: BUY | SMA9=253.62 SMA21=253.32 | RSI=50.73
+2026-04-08 09:42:03,158 [INFO] __main__ — HOLD AAPL — already in position or max positions reached
+2026-04-08 09:42:03,158 [INFO] __main__ — --- Processing TSLA ---
+2026-04-08 09:42:03,212 [INFO] data — Fetched 41 bars for TSLA
+2026-04-08 09:42:03,217 [INFO] strategy — Signal: SELL | SMA9=361.94 SMA21=377.93 | RSI=39.05
+2026-04-08 09:42:03,251 [INFO] __main__ — No position to exit for TSLA
+2026-04-08 09:42:03,251 [INFO] __main__ — --- Processing NVDA ---
+2026-04-08 09:42:03,308 [INFO] data — Fetched 41 bars for NVDA
+2026-04-08 09:42:03,313 [INFO] strategy — Signal: SELL | SMA9=174.44 SMA21=177.65 | RSI=55.57
+2026-04-08 09:42:03,350 [INFO] __main__ — No position to exit for NVDA
+2026-04-08 09:42:03,353 [INFO] __main__ — Sleeping 60s...
+
+2026-04-08 09:43:03,433 [INFO] __main__ — --- Processing AAPL ---
+2026-04-08 09:43:03,489 [INFO] data — Fetched 41 bars for AAPL
+2026-04-08 09:43:03,495 [INFO] strategy — Signal: BUY | SMA9=253.64 SMA21=253.33 | RSI=50.91
+2026-04-08 09:43:03,529 [INFO] __main__ — HOLD AAPL — already in position or max positions reached
+2026-04-08 09:43:03,529 [INFO] __main__ — --- Processing TSLA ---
+2026-04-08 09:43:03,588 [INFO] data — Fetched 41 bars for TSLA
+2026-04-08 09:43:03,592 [INFO] strategy — Signal: SELL | SMA9=361.88 SMA21=377.91 | RSI=38.79
+2026-04-08 09:43:03,625 [INFO] __main__ — No position to exit for TSLA
+2026-04-08 09:43:03,625 [INFO] __main__ — --- Processing NVDA ---
+2026-04-08 09:43:03,671 [INFO] data — Fetched 41 bars for NVDA
+2026-04-08 09:43:03,676 [INFO] strategy — Signal: SELL | SMA9=174.43 SMA21=177.64 | RSI=55.43
+2026-04-08 09:43:03,712 [INFO] __main__ — No position to exit for NVDA
+2026-04-08 09:43:03,714 [INFO] __main__ — Sleeping 60s...
+
+2026-04-08 09:44:03,796 [INFO] __main__ — --- Processing AAPL ---
+2026-04-08 09:44:03,852 [INFO] data — Fetched 41 bars for AAPL
+2026-04-08 09:44:03,855 [INFO] strategy — Signal: BUY | SMA9=253.66 SMA21=253.34 | RSI=51.15
+2026-04-08 09:44:03,894 [INFO] __main__ — HOLD AAPL — already in position or max positions reached
+2026-04-08 09:44:03,894 [INFO] __main__ — --- Processing TSLA ---
+2026-04-08 09:44:03,947 [INFO] data — Fetched 41 bars for TSLA
+2026-04-08 09:44:03,952 [INFO] strategy — Signal: SELL | SMA9=361.86 SMA21=377.89 | RSI=38.66
+2026-04-08 09:44:03,987 [INFO] __main__ — No position to exit for TSLA
+2026-04-08 09:44:03,987 [INFO] __main__ — --- Processing NVDA ---
+2026-04-08 09:44:04,048 [INFO] data — Fetched 41 bars for NVDA
+2026-04-08 09:44:04,053 [INFO] strategy — Signal: SELL | SMA9=174.46 SMA21=177.65 | RSI=55.74
+2026-04-08 09:44:04,087 [INFO] __main__ — No position to exit for NVDA
+2026-04-08 09:44:04,089 [INFO] __main__ — Sleeping 60s...
+
+2026-04-08 09:45:04,186 [INFO] __main__ — --- Processing AAPL ---
+2026-04-08 09:45:04,293 [INFO] data — Fetched 41 bars for AAPL
+2026-04-08 09:45:04,297 [INFO] strategy — Signal: BUY | SMA9=253.67 SMA21=253.35 | RSI=51.36
+2026-04-08 09:45:04,338 [INFO] __main__ — HOLD AAPL — already in position or max positions reached
+2026-04-08 09:45:04,339 [INFO] __main__ — --- Processing TSLA ---
+2026-04-08 09:45:04,413 [INFO] data — Fetched 41 bars for TSLA
+2026-04-08 09:45:04,418 [INFO] strategy — Signal: SELL | SMA9=361.88 SMA21=377.91 | RSI=38.78
+2026-04-08 09:45:04,458 [INFO] __main__ — No position to exit for TSLA
+2026-04-08 09:45:04,458 [INFO] __main__ — --- Processing NVDA ---
+2026-04-08 09:45:04,512 [INFO] data — Fetched 41 bars for NVDA
+2026-04-08 09:45:04,517 [INFO] strategy — Signal: SELL | SMA9=174.45 SMA21=177.65 | RSI=55.67
+2026-04-08 09:45:04,558 [INFO] __main__ — No position to exit for NVDA
+2026-04-08 09:45:04,561 [INFO] __main__ — Sleeping 60s...
+
+2026-04-08 09:46:04,636 [INFO] __main__ — --- Processing AAPL ---
+2026-04-08 09:46:04,684 [INFO] data — Fetched 41 bars for AAPL
+2026-04-08 09:46:04,688 [INFO] strategy — Signal: BUY | SMA9=253.71 SMA21=253.36 | RSI=51.82
+2026-04-08 09:46:04,721 [INFO] __main__ — HOLD AAPL — already in position or max positions reached
+2026-04-08 09:46:04,722 [INFO] __main__ — --- Processing TSLA ---
+2026-04-08 09:46:04,791 [INFO] data — Fetched 41 bars for TSLA
+2026-04-08 09:46:04,795 [INFO] strategy — Signal: SELL | SMA9=361.96 SMA21=377.94 | RSI=39.14
+2026-04-08 09:46:04,829 [INFO] __main__ — No position to exit for TSLA
+2026-04-08 09:46:04,829 [INFO] __main__ — --- Processing NVDA ---
+2026-04-08 09:46:04,912 [INFO] data — Fetched 41 bars for NVDA
+2026-04-08 09:46:04,917 [INFO] strategy — Signal: SELL | SMA9=174.50 SMA21=177.67 | RSI=56.08
+2026-04-08 09:46:04,951 [INFO] __main__ — No position to exit for NVDA
+2026-04-08 09:46:04,953 [INFO] __main__ — Sleeping 60s...
+
+2026-04-08 09:47:05,038 [INFO] __main__ — --- Processing AAPL ---
+2026-04-08 09:47:05,094 [INFO] data — Fetched 41 bars for AAPL
+2026-04-08 09:47:05,098 [INFO] strategy — Signal: BUY | SMA9=253.79 SMA21=253.39 | RSI=52.66
+2026-04-08 09:47:05,131 [INFO] __main__ — HOLD AAPL — already in position or max positions reached
+2026-04-08 09:47:05,131 [INFO] __main__ — --- Processing TSLA ---
+2026-04-08 09:47:05,204 [INFO] data — Fetched 41 bars for TSLA
+2026-04-08 09:47:05,208 [INFO] strategy — Signal: SELL | SMA9=362.06 SMA21=377.98 | RSI=39.60
+2026-04-08 09:47:05,241 [INFO] __main__ — No position to exit for TSLA
+2026-04-08 09:47:05,241 [INFO] __main__ — --- Processing NVDA ---
+2026-04-08 09:47:05,286 [INFO] data — Fetched 41 bars for NVDA
+2026-04-08 09:47:05,290 [INFO] strategy — Signal: SELL | SMA9=174.55 SMA21=177.69 | RSI=56.56
+2026-04-08 09:47:05,323 [INFO] __main__ — No position to exit for NVDA
+2026-04-08 09:47:05,325 [INFO] __main__ — Sleeping 60s...
+
+2026-04-08 09:48:27,019 [INFO] __main__ — === Bot starting ===
+2026-04-08 09:48:27,259 [INFO] __main__ — --- Processing AAPL ---
+2026-04-08 09:48:27,403 [INFO] data — Fetched 41 bars for AAPL
+2026-04-08 09:48:27,408 [INFO] strategy — Signal: BUY | SMA9=253.81 SMA21=253.40 | RSI=52.93
+2026-04-08 09:48:27,476 [INFO] risk — Position size: 7 shares (equity=$99982.82, price=$258.50)
+2026-04-08 09:48:27,516 [INFO] __main__ — BUY 7x AAPL @ ~$258.50 | SL=$253.33 TP=$268.84
+2026-04-08 09:48:27,518 [INFO] report — Trade logged: BUY 7x AAPL @ $258.50
+2026-04-08 09:48:27,518 [INFO] __main__ — --- Processing TSLA ---
+2026-04-08 09:48:27,580 [INFO] data — Fetched 41 bars for TSLA
+2026-04-08 09:48:27,584 [INFO] strategy — Signal: SELL | SMA9=362.07 SMA21=377.99 | RSI=39.67
+2026-04-08 09:48:27,617 [INFO] __main__ — No position to exit for TSLA
+2026-04-08 09:48:27,618 [INFO] __main__ — --- Processing NVDA ---
+2026-04-08 09:48:27,687 [INFO] data — Fetched 41 bars for NVDA
+2026-04-08 09:48:27,692 [INFO] strategy — Signal: SELL | SMA9=174.56 SMA21=177.69 | RSI=56.65
+2026-04-08 09:48:27,726 [INFO] __main__ — No position to exit for NVDA
+2026-04-08 09:48:27,729 [INFO] __main__ — Sleeping 60s...
+
+2026-04-08 09:49:27,802 [INFO] __main__ — --- Processing AAPL ---
+2026-04-08 09:49:27,860 [INFO] data — Fetched 41 bars for AAPL
+2026-04-08 09:49:27,865 [INFO] strategy — Signal: BUY | SMA9=253.82 SMA21=253.41 | RSI=52.98
+2026-04-08 09:49:27,902 [INFO] __main__ — HOLD AAPL — already in position or max positions reached
+2026-04-08 09:49:27,902 [INFO] __main__ — --- Processing TSLA ---
+2026-04-08 09:49:27,954 [INFO] data — Fetched 41 bars for TSLA
+2026-04-08 09:49:27,958 [INFO] strategy — Signal: SELL | SMA9=362.09 SMA21=378.00 | RSI=39.77
+2026-04-08 09:49:27,993 [INFO] __main__ — No position to exit for TSLA
+2026-04-08 09:49:27,993 [INFO] __main__ — --- Processing NVDA ---
+2026-04-08 09:49:28,065 [INFO] data — Fetched 41 bars for NVDA
+2026-04-08 09:49:28,070 [INFO] strategy — Signal: SELL | SMA9=174.53 SMA21=177.68 | RSI=56.39
+2026-04-08 09:49:28,105 [INFO] __main__ — No position to exit for NVDA
+2026-04-08 09:49:28,108 [INFO] __main__ — Sleeping 60s...
+
+2026-04-08 09:50:28,182 [INFO] __main__ — --- Processing AAPL ---
+2026-04-08 09:50:28,257 [INFO] data — Fetched 41 bars for AAPL
+2026-04-08 09:50:28,260 [INFO] strategy — Signal: BUY | SMA9=253.83 SMA21=253.41 | RSI=53.13
+2026-04-08 09:50:28,295 [INFO] __main__ — HOLD AAPL — already in position or max positions reached
+2026-04-08 09:50:28,295 [INFO] __main__ — --- Processing TSLA ---
+2026-04-08 09:50:28,336 [INFO] data — Fetched 41 bars for TSLA
+2026-04-08 09:50:28,339 [INFO] strategy — Signal: SELL | SMA9=362.08 SMA21=377.99 | RSI=39.70
+2026-04-08 09:50:28,372 [INFO] __main__ — No position to exit for TSLA
+2026-04-08 09:50:28,372 [INFO] __main__ — --- Processing NVDA ---
+2026-04-08 09:50:28,418 [INFO] data — Fetched 41 bars for NVDA
+2026-04-08 09:50:28,421 [INFO] strategy — Signal: SELL | SMA9=174.55 SMA21=177.69 | RSI=56.59
+2026-04-08 09:50:28,453 [INFO] __main__ — No position to exit for NVDA
+2026-04-08 09:50:28,455 [INFO] __main__ — Sleeping 60s...
+
+2026-04-08 09:51:28,536 [INFO] __main__ — --- Processing AAPL ---
+2026-04-08 09:51:28,581 [INFO] data — Fetched 41 bars for AAPL
+2026-04-08 09:51:28,584 [INFO] strategy — Signal: BUY | SMA9=253.82 SMA21=253.41 | RSI=52.99
+2026-04-08 09:51:28,618 [INFO] __main__ — HOLD AAPL — already in position or max positions reached
+2026-04-08 09:51:28,618 [INFO] __main__ — --- Processing TSLA ---
+2026-04-08 09:51:28,677 [INFO] data — Fetched 41 bars for TSLA
+2026-04-08 09:51:28,680 [INFO] strategy — Signal: SELL | SMA9=361.98 SMA21=377.95 | RSI=39.25
+2026-04-08 09:51:28,712 [INFO] __main__ — No position to exit for TSLA
+2026-04-08 09:51:28,713 [INFO] __main__ — --- Processing NVDA ---
+2026-04-08 09:51:28,758 [INFO] data — Fetched 41 bars for NVDA
+2026-04-08 09:51:28,761 [INFO] strategy — Signal: SELL | SMA9=174.53 SMA21=177.68 | RSI=56.43
+2026-04-08 09:51:28,797 [INFO] __main__ — No position to exit for NVDA
+2026-04-08 09:51:28,799 [INFO] __main__ — Sleeping 60s...
+
+2026-04-08 09:52:28,892 [INFO] __main__ — --- Processing AAPL ---
+2026-04-08 09:52:28,938 [INFO] data — Fetched 41 bars for AAPL
+2026-04-08 09:52:28,941 [INFO] strategy — Signal: BUY | SMA9=253.76 SMA21=253.38 | RSI=52.40
+2026-04-08 09:52:28,975 [INFO] __main__ — HOLD AAPL — already in position or max positions reached
+2026-04-08 09:52:28,976 [INFO] __main__ — --- Processing TSLA ---
+2026-04-08 09:52:29,023 [INFO] data — Fetched 41 bars for TSLA
+2026-04-08 09:52:29,026 [INFO] strategy — Signal: SELL | SMA9=361.89 SMA21=377.91 | RSI=38.82
+2026-04-08 09:52:29,062 [INFO] __main__ — No position to exit for TSLA
+2026-04-08 09:52:29,062 [INFO] __main__ — --- Processing NVDA ---
+2026-04-08 09:52:29,106 [INFO] data — Fetched 41 bars for NVDA
+2026-04-08 09:52:29,109 [INFO] strategy — Signal: SELL | SMA9=174.47 SMA21=177.66 | RSI=55.86
+2026-04-08 09:52:29,143 [INFO] __main__ — No position to exit for NVDA
+2026-04-08 09:52:29,145 [INFO] __main__ — Sleeping 60s...
+
+2026-04-08 09:53:29,230 [INFO] __main__ — --- Processing AAPL ---
+2026-04-08 09:53:29,275 [INFO] data — Fetched 41 bars for AAPL
+2026-04-08 09:53:29,277 [INFO] strategy — Signal: BUY | SMA9=253.81 SMA21=253.40 | RSI=52.90
+2026-04-08 09:53:29,310 [INFO] __main__ — HOLD AAPL — already in position or max positions reached
+2026-04-08 09:53:29,310 [INFO] __main__ — --- Processing TSLA ---
+2026-04-08 09:53:29,361 [INFO] data — Fetched 41 bars for TSLA
+2026-04-08 09:53:29,364 [INFO] strategy — Signal: SELL | SMA9=361.88 SMA21=377.90 | RSI=38.76
+2026-04-08 09:53:29,396 [INFO] __main__ — No position to exit for TSLA
+2026-04-08 09:53:29,396 [INFO] __main__ — --- Processing NVDA ---
+2026-04-08 09:53:29,440 [INFO] data — Fetched 41 bars for NVDA
+2026-04-08 09:53:29,443 [INFO] strategy — Signal: SELL | SMA9=174.48 SMA21=177.66 | RSI=55.95
+2026-04-08 09:53:29,475 [INFO] __main__ — No position to exit for NVDA
+2026-04-08 09:53:29,477 [INFO] __main__ — Sleeping 60s...
+
+2026-04-08 09:54:29,560 [INFO] __main__ — --- Processing AAPL ---
+2026-04-08 09:54:29,639 [INFO] data — Fetched 41 bars for AAPL
+2026-04-08 09:54:29,642 [INFO] strategy — Signal: BUY | SMA9=253.81 SMA21=253.40 | RSI=52.88
+2026-04-08 09:54:29,677 [INFO] __main__ — HOLD AAPL — already in position or max positions reached
+2026-04-08 09:54:29,677 [INFO] __main__ — --- Processing TSLA ---
+2026-04-08 09:54:29,741 [INFO] data — Fetched 41 bars for TSLA
+2026-04-08 09:54:29,744 [INFO] strategy — Signal: SELL | SMA9=361.89 SMA21=377.91 | RSI=38.82
+2026-04-08 09:54:29,989 [INFO] __main__ — No position to exit for TSLA
+2026-04-08 09:54:29,990 [INFO] __main__ — --- Processing NVDA ---
+2026-04-08 09:54:30,053 [INFO] data — Fetched 41 bars for NVDA
+2026-04-08 09:54:30,058 [INFO] strategy — Signal: SELL | SMA9=174.48 SMA21=177.66 | RSI=55.95
+2026-04-08 09:54:30,096 [INFO] __main__ — No position to exit for NVDA
+2026-04-08 09:54:30,097 [INFO] __main__ — Sleeping 60s...
+
+2026-04-08 09:55:30,173 [INFO] __main__ — --- Processing AAPL ---
+2026-04-08 09:55:30,231 [INFO] data — Fetched 41 bars for AAPL
+2026-04-08 09:55:30,237 [INFO] strategy — Signal: BUY | SMA9=253.78 SMA21=253.39 | RSI=52.59
+2026-04-08 09:55:30,273 [INFO] __main__ — HOLD AAPL — already in position or max positions reached
+2026-04-08 09:55:30,273 [INFO] __main__ — --- Processing TSLA ---
+2026-04-08 09:55:30,327 [INFO] data — Fetched 41 bars for TSLA
+2026-04-08 09:55:30,333 [INFO] strategy — Signal: SELL | SMA9=361.88 SMA21=377.91 | RSI=38.79
+2026-04-08 09:55:30,371 [INFO] __main__ — No position to exit for TSLA
+2026-04-08 09:55:30,371 [INFO] __main__ — --- Processing NVDA ---
+2026-04-08 09:55:30,421 [INFO] data — Fetched 41 bars for NVDA
+2026-04-08 09:55:30,427 [INFO] strategy — Signal: SELL | SMA9=174.47 SMA21=177.66 | RSI=55.84
+2026-04-08 09:55:30,461 [INFO] __main__ — No position to exit for NVDA
+2026-04-08 09:55:30,463 [INFO] __main__ — Sleeping 60s...
+
+2026-04-08 09:56:30,543 [INFO] __main__ — --- Processing AAPL ---
+2026-04-08 09:56:30,591 [INFO] data — Fetched 41 bars for AAPL
+2026-04-08 09:56:30,596 [INFO] strategy — Signal: BUY | SMA9=253.79 SMA21=253.40 | RSI=52.68
+2026-04-08 09:56:30,636 [INFO] __main__ — HOLD AAPL — already in position or max positions reached
+2026-04-08 09:56:30,637 [INFO] __main__ — --- Processing TSLA ---
+2026-04-08 09:56:30,690 [INFO] data — Fetched 41 bars for TSLA
+2026-04-08 09:56:30,695 [INFO] strategy — Signal: SELL | SMA9=361.85 SMA21=377.89 | RSI=38.63
+2026-04-08 09:56:30,737 [INFO] __main__ — No position to exit for TSLA
+2026-04-08 09:56:30,737 [INFO] __main__ — --- Processing NVDA ---
+2026-04-08 09:56:30,785 [INFO] data — Fetched 41 bars for NVDA
+2026-04-08 09:56:30,790 [INFO] strategy — Signal: SELL | SMA9=174.48 SMA21=177.66 | RSI=55.91
+2026-04-08 09:56:30,828 [INFO] __main__ — No position to exit for NVDA
+2026-04-08 09:56:30,829 [INFO] __main__ — Sleeping 60s...
+
+2026-04-08 09:57:30,916 [INFO] __main__ — --- Processing AAPL ---
+2026-04-08 09:57:30,979 [INFO] data — Fetched 41 bars for AAPL
+2026-04-08 09:57:30,986 [INFO] strategy — Signal: BUY | SMA9=253.81 SMA21=253.41 | RSI=52.96
+2026-04-08 09:57:31,021 [INFO] __main__ — HOLD AAPL — already in position or max positions reached
+2026-04-08 09:57:31,021 [INFO] __main__ — --- Processing TSLA ---
+2026-04-08 09:57:31,079 [INFO] data — Fetched 41 bars for TSLA
+2026-04-08 09:57:31,084 [INFO] strategy — Signal: SELL | SMA9=361.80 SMA21=377.87 | RSI=38.40
+2026-04-08 09:57:31,120 [INFO] __main__ — No position to exit for TSLA
+2026-04-08 09:57:31,121 [INFO] __main__ — --- Processing NVDA ---
+2026-04-08 09:57:31,169 [INFO] data — Fetched 41 bars for NVDA
+2026-04-08 09:57:31,174 [INFO] strategy — Signal: SELL | SMA9=174.47 SMA21=177.66 | RSI=55.78
+2026-04-08 09:57:31,211 [INFO] __main__ — No position to exit for NVDA
+2026-04-08 09:57:31,214 [INFO] __main__ — Sleeping 60s...
+
+2026-04-08 09:58:31,306 [INFO] __main__ — --- Processing AAPL ---
+2026-04-08 09:58:31,363 [INFO] data — Fetched 41 bars for AAPL
+2026-04-08 09:58:31,370 [INFO] strategy — Signal: BUY | SMA9=253.79 SMA21=253.39 | RSI=52.67
+2026-04-08 09:58:31,411 [INFO] __main__ — HOLD AAPL — already in position or max positions reached
+2026-04-08 09:58:31,412 [INFO] __main__ — --- Processing TSLA ---
+2026-04-08 09:58:31,472 [INFO] data — Fetched 41 bars for TSLA
+2026-04-08 09:58:31,477 [INFO] strategy — Signal: SELL | SMA9=361.77 SMA21=377.86 | RSI=38.24
+2026-04-08 09:58:31,515 [INFO] __main__ — No position to exit for TSLA
+2026-04-08 09:58:31,516 [INFO] __main__ — --- Processing NVDA ---
+2026-04-08 09:58:31,571 [INFO] data — Fetched 41 bars for NVDA
+2026-04-08 09:58:31,576 [INFO] strategy — Signal: SELL | SMA9=174.43 SMA21=177.64 | RSI=55.44
+2026-04-08 09:58:31,612 [INFO] __main__ — No position to exit for NVDA
+2026-04-08 09:58:31,615 [INFO] __main__ — Sleeping 60s...
+
+2026-04-08 09:59:31,694 [INFO] __main__ — --- Processing AAPL ---
+2026-04-08 09:59:31,748 [INFO] data — Fetched 41 bars for AAPL
+2026-04-08 09:59:31,754 [INFO] strategy — Signal: BUY | SMA9=253.81 SMA21=253.40 | RSI=52.93
+2026-04-08 09:59:31,795 [INFO] __main__ — HOLD AAPL — already in position or max positions reached
+2026-04-08 09:59:31,795 [INFO] __main__ — --- Processing TSLA ---
+2026-04-08 09:59:31,848 [INFO] data — Fetched 41 bars for TSLA
+2026-04-08 09:59:31,854 [INFO] strategy — Signal: SELL | SMA9=361.67 SMA21=377.81 | RSI=37.76
+2026-04-08 09:59:31,890 [INFO] __main__ — No position to exit for TSLA
+2026-04-08 09:59:31,890 [INFO] __main__ — --- Processing NVDA ---
+2026-04-08 09:59:31,939 [INFO] data — Fetched 41 bars for NVDA
+2026-04-08 09:59:31,944 [INFO] strategy — Signal: SELL | SMA9=174.42 SMA21=177.64 | RSI=55.35
+2026-04-08 09:59:31,981 [INFO] __main__ — No position to exit for NVDA
+2026-04-08 09:59:31,983 [INFO] __main__ — Sleeping 60s...
+
+2026-04-08 10:00:32,070 [INFO] __main__ — --- Processing AAPL ---
+2026-04-08 10:00:32,154 [INFO] data — Fetched 41 bars for AAPL
+2026-04-08 10:00:32,157 [INFO] strategy — Signal: BUY | SMA9=253.82 SMA21=253.41 | RSI=52.98
+2026-04-08 10:00:32,191 [INFO] __main__ — HOLD AAPL — already in position or max positions reached
+2026-04-08 10:00:32,191 [INFO] __main__ — --- Processing TSLA ---
+2026-04-08 10:00:32,287 [INFO] data — Fetched 41 bars for TSLA
+2026-04-08 10:00:32,292 [INFO] strategy — Signal: SELL | SMA9=361.68 SMA21=377.82 | RSI=37.81
+2026-04-08 10:00:32,334 [INFO] __main__ — No position to exit for TSLA
+2026-04-08 10:00:32,335 [INFO] __main__ — --- Processing NVDA ---
+2026-04-08 10:00:32,396 [INFO] data — Fetched 41 bars for NVDA
+2026-04-08 10:00:32,401 [INFO] strategy — Signal: SELL | SMA9=174.41 SMA21=177.63 | RSI=55.21
+2026-04-08 10:00:32,438 [INFO] __main__ — No position to exit for NVDA
+2026-04-08 10:00:32,440 [INFO] __main__ — Sleeping 60s...
+
+2026-04-08 10:01:32,531 [INFO] __main__ — --- Processing AAPL ---
+2026-04-08 10:01:32,578 [INFO] data — Fetched 41 bars for AAPL
+2026-04-08 10:01:32,586 [INFO] strategy — Signal: BUY | SMA9=253.83 SMA21=253.41 | RSI=53.16
+2026-04-08 10:01:32,622 [INFO] __main__ — HOLD AAPL — already in position or max positions reached
+2026-04-08 10:01:32,622 [INFO] __main__ — --- Processing TSLA ---
+2026-04-08 10:01:32,677 [INFO] data — Fetched 41 bars for TSLA
+2026-04-08 10:01:32,681 [INFO] strategy — Signal: SELL | SMA9=361.70 SMA21=377.83 | RSI=37.91
+2026-04-08 10:01:32,715 [INFO] __main__ — No position to exit for TSLA
+2026-04-08 10:01:32,716 [INFO] __main__ — --- Processing NVDA ---
+2026-04-08 10:01:32,771 [INFO] data — Fetched 41 bars for NVDA
+2026-04-08 10:01:32,776 [INFO] strategy — Signal: SELL | SMA9=174.41 SMA21=177.63 | RSI=55.18
+2026-04-08 10:01:32,810 [INFO] __main__ — No position to exit for NVDA
+2026-04-08 10:01:32,811 [INFO] __main__ — Sleeping 60s...
+
+2026-04-08 10:02:32,887 [INFO] __main__ — --- Processing AAPL ---
+2026-04-08 10:02:32,973 [INFO] data — Fetched 41 bars for AAPL
+2026-04-08 10:02:32,977 [INFO] strategy — Signal: BUY | SMA9=253.79 SMA21=253.40 | RSI=52.74
+2026-04-08 10:02:33,012 [INFO] __main__ — HOLD AAPL — already in position or max positions reached
+2026-04-08 10:02:33,013 [INFO] __main__ — --- Processing TSLA ---
+2026-04-08 10:02:33,058 [INFO] data — Fetched 41 bars for TSLA
+2026-04-08 10:02:33,062 [INFO] strategy — Signal: SELL | SMA9=361.81 SMA21=377.88 | RSI=38.45
+2026-04-08 10:02:33,098 [INFO] __main__ — No position to exit for TSLA
+2026-04-08 10:02:33,098 [INFO] __main__ — --- Processing NVDA ---
+2026-04-08 10:02:33,163 [INFO] data — Fetched 41 bars for NVDA
+2026-04-08 10:02:33,166 [INFO] strategy — Signal: SELL | SMA9=174.40 SMA21=177.63 | RSI=55.12
+2026-04-08 10:02:33,200 [INFO] __main__ — No position to exit for NVDA
+2026-04-08 10:02:33,201 [INFO] __main__ — Sleeping 60s...
+
+2026-04-08 10:03:33,288 [INFO] __main__ — --- Processing AAPL ---
+2026-04-08 10:03:33,343 [INFO] data — Fetched 41 bars for AAPL
+2026-04-08 10:03:33,347 [INFO] strategy — Signal: BUY | SMA9=253.84 SMA21=253.42 | RSI=53.21
+2026-04-08 10:03:33,381 [INFO] __main__ — HOLD AAPL — already in position or max positions reached
+2026-04-08 10:03:33,381 [INFO] __main__ — --- Processing TSLA ---
+2026-04-08 10:03:33,430 [INFO] data — Fetched 41 bars for TSLA
+2026-04-08 10:03:33,434 [INFO] strategy — Signal: SELL | SMA9=361.68 SMA21=377.82 | RSI=37.82
+2026-04-08 10:03:33,472 [INFO] __main__ — No position to exit for TSLA
+2026-04-08 10:03:33,473 [INFO] __main__ — --- Processing NVDA ---
+2026-04-08 10:03:33,551 [INFO] data — Fetched 41 bars for NVDA
+2026-04-08 10:03:33,554 [INFO] strategy — Signal: SELL | SMA9=174.39 SMA21=177.62 | RSI=54.99
+2026-04-08 10:03:33,587 [INFO] __main__ — No position to exit for NVDA
+2026-04-08 10:03:33,589 [INFO] __main__ — Sleeping 60s...
+
+2026-04-08 10:04:33,690 [INFO] __main__ — --- Processing AAPL ---
+2026-04-08 10:04:33,747 [INFO] data — Fetched 41 bars for AAPL
+2026-04-08 10:04:33,752 [INFO] strategy — Signal: BUY | SMA9=253.84 SMA21=253.42 | RSI=53.23
+2026-04-08 10:04:33,796 [INFO] __main__ — HOLD AAPL — already in position or max positions reached
+2026-04-08 10:04:33,796 [INFO] __main__ — --- Processing TSLA ---
+2026-04-08 10:04:33,871 [INFO] data — Fetched 41 bars for TSLA
+2026-04-08 10:04:33,874 [INFO] strategy — Signal: SELL | SMA9=361.56 SMA21=377.77 | RSI=37.25
+2026-04-08 10:04:33,911 [INFO] __main__ — No position to exit for TSLA
+2026-04-08 10:04:33,911 [INFO] __main__ — --- Processing NVDA ---
+2026-04-08 10:04:34,019 [INFO] data — Fetched 41 bars for NVDA
+2026-04-08 10:04:34,023 [INFO] strategy — Signal: SELL | SMA9=174.36 SMA21=177.61 | RSI=54.69
+2026-04-08 10:04:34,060 [INFO] __main__ — No position to exit for NVDA
+2026-04-08 10:04:34,062 [INFO] __main__ — Sleeping 60s...
+
+2026-04-08 10:05:34,155 [INFO] __main__ — --- Processing AAPL ---
+2026-04-08 10:05:34,268 [INFO] data — Fetched 41 bars for AAPL
+2026-04-08 10:05:34,272 [INFO] strategy — Signal: BUY | SMA9=253.85 SMA21=253.42 | RSI=53.38
+2026-04-08 10:05:34,361 [INFO] __main__ — HOLD AAPL — already in position or max positions reached
+2026-04-08 10:05:34,361 [INFO] __main__ — --- Processing TSLA ---
+2026-04-08 10:05:34,417 [INFO] data — Fetched 41 bars for TSLA
+2026-04-08 10:05:34,422 [INFO] strategy — Signal: SELL | SMA9=361.56 SMA21=377.77 | RSI=37.23
+2026-04-08 10:05:34,458 [INFO] __main__ — No position to exit for TSLA
+2026-04-08 10:05:34,458 [INFO] __main__ — --- Processing NVDA ---
+2026-04-08 10:05:34,519 [INFO] data — Fetched 41 bars for NVDA
+2026-04-08 10:05:34,523 [INFO] strategy — Signal: SELL | SMA9=174.36 SMA21=177.61 | RSI=54.73
+2026-04-08 10:05:34,559 [INFO] __main__ — No position to exit for NVDA
+2026-04-08 10:05:34,561 [INFO] __main__ — Sleeping 60s...
+
+2026-04-08 10:06:34,641 [INFO] __main__ — --- Processing AAPL ---
+2026-04-08 10:06:34,698 [INFO] data — Fetched 41 bars for AAPL
+2026-04-08 10:06:34,702 [INFO] strategy — Signal: BUY | SMA9=253.82 SMA21=253.41 | RSI=53.07
+2026-04-08 10:06:34,738 [INFO] __main__ — HOLD AAPL — already in position or max positions reached
+2026-04-08 10:06:34,738 [INFO] __main__ — --- Processing TSLA ---
+2026-04-08 10:06:34,781 [INFO] data — Fetched 41 bars for TSLA
+2026-04-08 10:06:34,784 [INFO] strategy — Signal: SELL | SMA9=361.64 SMA21=377.80 | RSI=37.64
+2026-04-08 10:06:34,818 [INFO] __main__ — No position to exit for TSLA
+2026-04-08 10:06:34,818 [INFO] __main__ — --- Processing NVDA ---
+2026-04-08 10:06:34,864 [INFO] data — Fetched 41 bars for NVDA
+2026-04-08 10:06:34,867 [INFO] strategy — Signal: SELL | SMA9=174.36 SMA21=177.61 | RSI=54.71
+2026-04-08 10:06:34,901 [INFO] __main__ — No position to exit for NVDA
+2026-04-08 10:06:34,902 [INFO] __main__ — Sleeping 60s...
+
+2026-04-08 10:07:34,984 [INFO] __main__ — --- Processing AAPL ---
+2026-04-08 10:07:35,043 [INFO] data — Fetched 41 bars for AAPL
+2026-04-08 10:07:35,045 [INFO] strategy — Signal: BUY | SMA9=253.87 SMA21=253.43 | RSI=53.59
+2026-04-08 10:07:35,081 [INFO] __main__ — HOLD AAPL — already in position or max positions reached
+2026-04-08 10:07:35,081 [INFO] __main__ — --- Processing TSLA ---
+2026-04-08 10:07:35,123 [INFO] data — Fetched 41 bars for TSLA
+2026-04-08 10:07:35,127 [INFO] strategy — Signal: SELL | SMA9=361.63 SMA21=377.80 | RSI=37.58
+2026-04-08 10:07:35,172 [INFO] __main__ — No position to exit for TSLA
+2026-04-08 10:07:35,172 [INFO] __main__ — --- Processing NVDA ---
+2026-04-08 10:07:35,215 [INFO] data — Fetched 41 bars for NVDA
+2026-04-08 10:07:35,218 [INFO] strategy — Signal: SELL | SMA9=174.32 SMA21=177.59 | RSI=54.35
+2026-04-08 10:07:35,252 [INFO] __main__ — No position to exit for NVDA
+2026-04-08 10:07:35,253 [INFO] __main__ — Sleeping 60s...
+
+2026-04-08 10:08:35,340 [INFO] __main__ — --- Processing AAPL ---
+2026-04-08 10:08:35,393 [INFO] data — Fetched 41 bars for AAPL
+2026-04-08 10:08:35,395 [INFO] strategy — Signal: BUY | SMA9=253.92 SMA21=253.45 | RSI=54.06
+2026-04-08 10:08:35,433 [INFO] __main__ — HOLD AAPL — already in position or max positions reached
+2026-04-08 10:08:35,433 [INFO] __main__ — --- Processing TSLA ---
+2026-04-08 10:08:35,483 [INFO] data — Fetched 41 bars for TSLA
+2026-04-08 10:08:35,486 [INFO] strategy — Signal: SELL | SMA9=361.62 SMA21=377.79 | RSI=37.51
+2026-04-08 10:08:35,522 [INFO] __main__ — No position to exit for TSLA
+2026-04-08 10:08:35,522 [INFO] __main__ — --- Processing NVDA ---
+2026-04-08 10:08:35,566 [INFO] data — Fetched 41 bars for NVDA
+2026-04-08 10:08:35,569 [INFO] strategy — Signal: SELL | SMA9=174.30 SMA21=177.59 | RSI=54.12
+2026-04-08 10:08:35,606 [INFO] __main__ — No position to exit for NVDA
+2026-04-08 10:08:35,608 [INFO] __main__ — Sleeping 60s...
+
+2026-04-08 10:09:35,829 [INFO] __main__ — --- Processing AAPL ---
+2026-04-08 10:09:35,894 [INFO] data — Fetched 41 bars for AAPL
+2026-04-08 10:09:35,896 [INFO] strategy — Signal: BUY | SMA9=253.86 SMA21=253.43 | RSI=53.49
+2026-04-08 10:09:35,932 [INFO] __main__ — HOLD AAPL — already in position or max positions reached
+2026-04-08 10:09:35,932 [INFO] __main__ — --- Processing TSLA ---
+2026-04-08 10:09:35,995 [INFO] data — Fetched 41 bars for TSLA
+2026-04-08 10:09:35,998 [INFO] strategy — Signal: SELL | SMA9=361.52 SMA21=377.75 | RSI=37.04
+2026-04-08 10:09:36,033 [INFO] __main__ — No position to exit for TSLA
+2026-04-08 10:09:36,034 [INFO] __main__ — --- Processing NVDA ---
+2026-04-08 10:09:36,097 [INFO] data — Fetched 41 bars for NVDA
+2026-04-08 10:09:36,101 [INFO] strategy — Signal: SELL | SMA9=174.29 SMA21=177.58 | RSI=53.96
+2026-04-08 10:09:36,356 [INFO] __main__ — No position to exit for NVDA
+2026-04-08 10:09:36,358 [INFO] __main__ — Sleeping 60s...
+
+2026-04-08 10:10:36,446 [INFO] __main__ — --- Processing AAPL ---
+2026-04-08 10:10:36,525 [INFO] data — Fetched 41 bars for AAPL
+2026-04-08 10:10:36,531 [INFO] strategy — Signal: BUY | SMA9=253.90 SMA21=253.44 | RSI=53.92
+2026-04-08 10:10:36,567 [INFO] __main__ — HOLD AAPL — already in position or max positions reached
+2026-04-08 10:10:36,567 [INFO] __main__ — --- Processing TSLA ---
+2026-04-08 10:10:36,618 [INFO] data — Fetched 41 bars for TSLA
+2026-04-08 10:10:36,623 [INFO] strategy — Signal: SELL | SMA9=361.52 SMA21=377.75 | RSI=37.01
+2026-04-08 10:10:36,659 [INFO] __main__ — No position to exit for TSLA
+2026-04-08 10:10:36,660 [INFO] __main__ — --- Processing NVDA ---
+2026-04-08 10:10:36,711 [INFO] data — Fetched 41 bars for NVDA
+2026-04-08 10:10:36,717 [INFO] strategy — Signal: SELL | SMA9=174.29 SMA21=177.58 | RSI=53.99
+2026-04-08 10:10:36,762 [INFO] __main__ — No position to exit for NVDA
+2026-04-08 10:10:36,767 [INFO] __main__ — Sleeping 60s...
+
+2026-04-08 10:11:36,850 [INFO] __main__ — --- Processing AAPL ---
+2026-04-08 10:11:36,928 [INFO] data — Fetched 41 bars for AAPL
+2026-04-08 10:11:36,934 [INFO] strategy — Signal: BUY | SMA9=253.90 SMA21=253.44 | RSI=53.85
+2026-04-08 10:11:36,970 [INFO] __main__ — HOLD AAPL — already in position or max positions reached
+2026-04-08 10:11:36,971 [INFO] __main__ — --- Processing TSLA ---
+2026-04-08 10:11:37,050 [INFO] data — Fetched 41 bars for TSLA
+2026-04-08 10:11:37,055 [INFO] strategy — Signal: SELL | SMA9=361.46 SMA21=377.72 | RSI=36.70
+2026-04-08 10:11:37,092 [INFO] __main__ — No position to exit for TSLA
+2026-04-08 10:11:37,093 [INFO] __main__ — --- Processing NVDA ---
+2026-04-08 10:11:37,142 [INFO] data — Fetched 41 bars for NVDA
+2026-04-08 10:11:37,148 [INFO] strategy — Signal: SELL | SMA9=174.28 SMA21=177.57 | RSI=53.85
+2026-04-08 10:11:37,187 [INFO] __main__ — No position to exit for NVDA
+2026-04-08 10:11:37,188 [INFO] __main__ — Sleeping 60s...
+
+2026-04-08 10:12:37,281 [INFO] __main__ — --- Processing AAPL ---
+2026-04-08 10:12:37,352 [INFO] data — Fetched 41 bars for AAPL
+2026-04-08 10:12:37,357 [INFO] strategy — Signal: BUY | SMA9=253.90 SMA21=253.44 | RSI=53.88
+2026-04-08 10:12:37,395 [INFO] __main__ — HOLD AAPL — already in position or max positions reached
+2026-04-08 10:12:37,396 [INFO] __main__ — --- Processing TSLA ---
+2026-04-08 10:12:37,447 [INFO] data — Fetched 41 bars for TSLA
+2026-04-08 10:12:37,450 [INFO] strategy — Signal: SELL | SMA9=361.52 SMA21=377.75 | RSI=37.03
+2026-04-08 10:12:37,487 [INFO] __main__ — No position to exit for TSLA
+2026-04-08 10:12:37,487 [INFO] __main__ — --- Processing NVDA ---
+2026-04-08 10:12:37,538 [INFO] data — Fetched 41 bars for NVDA
+2026-04-08 10:12:37,543 [INFO] strategy — Signal: SELL | SMA9=174.28 SMA21=177.57 | RSI=53.87
+2026-04-08 10:12:37,579 [INFO] __main__ — No position to exit for NVDA
+2026-04-08 10:12:37,581 [INFO] __main__ — Sleeping 60s...
+
+2026-04-08 10:13:37,671 [INFO] __main__ — --- Processing AAPL ---
+2026-04-08 10:13:37,719 [INFO] data — Fetched 41 bars for AAPL
+2026-04-08 10:13:37,724 [INFO] strategy — Signal: BUY | SMA9=253.88 SMA21=253.43 | RSI=53.68
+2026-04-08 10:13:37,762 [INFO] __main__ — HOLD AAPL — already in position or max positions reached
+2026-04-08 10:13:37,762 [INFO] __main__ — --- Processing TSLA ---
+2026-04-08 10:13:37,818 [INFO] data — Fetched 41 bars for TSLA
+2026-04-08 10:13:37,823 [INFO] strategy — Signal: SELL | SMA9=361.44 SMA21=377.72 | RSI=36.65
+2026-04-08 10:13:37,860 [INFO] __main__ — No position to exit for TSLA
+2026-04-08 10:13:37,860 [INFO] __main__ — --- Processing NVDA ---
+2026-04-08 10:13:37,910 [INFO] data — Fetched 41 bars for NVDA
+2026-04-08 10:13:37,917 [INFO] strategy — Signal: SELL | SMA9=174.31 SMA21=177.59 | RSI=54.20
+2026-04-08 10:13:37,952 [INFO] __main__ — No position to exit for NVDA
+2026-04-08 10:13:37,954 [INFO] __main__ — Sleeping 60s...
+
+2026-04-08 10:14:38,038 [INFO] __main__ — --- Processing AAPL ---
+2026-04-08 10:14:38,104 [INFO] data — Fetched 41 bars for AAPL
+2026-04-08 10:14:38,108 [INFO] strategy — Signal: BUY | SMA9=253.87 SMA21=253.43 | RSI=53.58
+2026-04-08 10:14:38,145 [INFO] __main__ — HOLD AAPL — already in position or max positions reached
+2026-04-08 10:14:38,146 [INFO] __main__ — --- Processing TSLA ---
+2026-04-08 10:14:38,192 [INFO] data — Fetched 41 bars for TSLA
+2026-04-08 10:14:38,197 [INFO] strategy — Signal: SELL | SMA9=361.46 SMA21=377.73 | RSI=36.73
+2026-04-08 10:14:38,232 [INFO] __main__ — No position to exit for TSLA
+2026-04-08 10:14:38,232 [INFO] __main__ — --- Processing NVDA ---
+2026-04-08 10:14:38,289 [INFO] data — Fetched 41 bars for NVDA
+2026-04-08 10:14:38,294 [INFO] strategy — Signal: SELL | SMA9=174.32 SMA21=177.59 | RSI=54.33
+2026-04-08 10:14:38,332 [INFO] __main__ — No position to exit for NVDA
+2026-04-08 10:14:38,337 [INFO] __main__ — Sleeping 60s...
+
+2026-04-08 10:15:38,421 [INFO] __main__ — --- Processing AAPL ---
+2026-04-08 10:15:38,512 [INFO] data — Fetched 41 bars for AAPL
+2026-04-08 10:15:38,515 [INFO] strategy — Signal: BUY | SMA9=253.86 SMA21=253.43 | RSI=53.47
+2026-04-08 10:15:38,560 [INFO] __main__ — HOLD AAPL — already in position or max positions reached
+2026-04-08 10:15:38,560 [INFO] __main__ — --- Processing TSLA ---
+2026-04-08 10:15:38,622 [INFO] data — Fetched 41 bars for TSLA
+2026-04-08 10:15:38,626 [INFO] strategy — Signal: SELL | SMA9=361.45 SMA21=377.72 | RSI=36.70
+2026-04-08 10:15:38,660 [INFO] __main__ — No position to exit for TSLA
+2026-04-08 10:15:38,661 [INFO] __main__ — --- Processing NVDA ---
+2026-04-08 10:15:38,714 [INFO] data — Fetched 41 bars for NVDA
+2026-04-08 10:15:38,717 [INFO] strategy — Signal: SELL | SMA9=174.32 SMA21=177.59 | RSI=54.27
+2026-04-08 10:15:38,750 [INFO] __main__ — No position to exit for NVDA
+2026-04-08 10:15:38,752 [INFO] __main__ — Sleeping 60s...
+
+2026-04-08 10:16:38,836 [INFO] __main__ — --- Processing AAPL ---
+2026-04-08 10:16:38,894 [INFO] data — Fetched 41 bars for AAPL
+2026-04-08 10:16:38,900 [INFO] strategy — Signal: BUY | SMA9=253.88 SMA21=253.43 | RSI=53.62
+2026-04-08 10:16:38,936 [INFO] __main__ — HOLD AAPL — already in position or max positions reached
+2026-04-08 10:16:38,936 [INFO] __main__ — --- Processing TSLA ---
+2026-04-08 10:16:38,997 [INFO] data — Fetched 41 bars for TSLA
+2026-04-08 10:16:39,001 [INFO] strategy — Signal: SELL | SMA9=361.52 SMA21=377.75 | RSI=37.03
+2026-04-08 10:16:39,037 [INFO] __main__ — No position to exit for TSLA
+2026-04-08 10:16:39,037 [INFO] __main__ — --- Processing NVDA ---
+2026-04-08 10:16:39,095 [INFO] data — Fetched 41 bars for NVDA
+2026-04-08 10:16:39,098 [INFO] strategy — Signal: SELL | SMA9=174.28 SMA21=177.58 | RSI=53.87
+2026-04-08 10:16:39,134 [INFO] __main__ — No position to exit for NVDA
+2026-04-08 10:16:39,135 [INFO] __main__ — Sleeping 60s...
+
+2026-04-08 10:17:39,217 [INFO] __main__ — --- Processing AAPL ---
+2026-04-08 10:17:39,337 [INFO] data — Fetched 41 bars for AAPL
+2026-04-08 10:17:39,343 [INFO] strategy — Signal: BUY | SMA9=253.84 SMA21=253.42 | RSI=53.19
+2026-04-08 10:17:39,383 [INFO] __main__ — HOLD AAPL — already in position or max positions reached
+2026-04-08 10:17:39,383 [INFO] __main__ — --- Processing TSLA ---
+2026-04-08 10:17:39,432 [INFO] data — Fetched 41 bars for TSLA
+2026-04-08 10:17:39,435 [INFO] strategy — Signal: SELL | SMA9=361.51 SMA21=377.75 | RSI=36.96
+2026-04-08 10:17:39,467 [INFO] __main__ — No position to exit for TSLA
+2026-04-08 10:17:39,468 [INFO] __main__ — --- Processing NVDA ---
+2026-04-08 10:17:39,525 [INFO] data — Fetched 41 bars for NVDA
+2026-04-08 10:17:39,529 [INFO] strategy — Signal: SELL | SMA9=174.30 SMA21=177.59 | RSI=54.14
+2026-04-08 10:17:39,565 [INFO] __main__ — No position to exit for NVDA
+2026-04-08 10:17:39,566 [INFO] __main__ — Sleeping 60s...
+
+2026-04-08 10:18:39,644 [INFO] __main__ — --- Processing AAPL ---
+2026-04-08 10:18:39,704 [INFO] data — Fetched 41 bars for AAPL
+2026-04-08 10:18:39,708 [INFO] strategy — Signal: BUY | SMA9=253.84 SMA21=253.42 | RSI=53.26
+2026-04-08 10:18:39,747 [INFO] __main__ — HOLD AAPL — already in position or max positions reached
+2026-04-08 10:18:39,747 [INFO] __main__ — --- Processing TSLA ---
+2026-04-08 10:18:39,794 [INFO] data — Fetched 41 bars for TSLA
+2026-04-08 10:18:39,799 [INFO] strategy — Signal: SELL | SMA9=361.48 SMA21=377.73 | RSI=36.81
+2026-04-08 10:18:39,835 [INFO] __main__ — No position to exit for TSLA
+2026-04-08 10:18:39,835 [INFO] __main__ — --- Processing NVDA ---
+2026-04-08 10:18:39,893 [INFO] data — Fetched 41 bars for NVDA
+2026-04-08 10:18:39,896 [INFO] strategy — Signal: SELL | SMA9=174.29 SMA21=177.58 | RSI=54.03
+2026-04-08 10:18:39,930 [INFO] __main__ — No position to exit for NVDA
+2026-04-08 10:18:39,931 [INFO] __main__ — Sleeping 60s...
+
+2026-04-08 10:19:40,022 [INFO] __main__ — --- Processing AAPL ---
+2026-04-08 10:19:40,132 [INFO] data — Fetched 41 bars for AAPL
+2026-04-08 10:19:40,136 [INFO] strategy — Signal: BUY | SMA9=253.81 SMA21=253.40 | RSI=52.87
+2026-04-08 10:19:40,174 [INFO] __main__ — HOLD AAPL — already in position or max positions reached
+2026-04-08 10:19:40,174 [INFO] __main__ — --- Processing TSLA ---
+2026-04-08 10:19:40,228 [INFO] data — Fetched 41 bars for TSLA
+2026-04-08 10:19:40,233 [INFO] strategy — Signal: SELL | SMA9=361.40 SMA21=377.70 | RSI=36.43
+2026-04-08 10:19:40,275 [INFO] __main__ — No position to exit for TSLA
+2026-04-08 10:19:40,275 [INFO] __main__ — --- Processing NVDA ---
+2026-04-08 10:19:40,325 [INFO] data — Fetched 41 bars for NVDA
+2026-04-08 10:19:40,329 [INFO] strategy — Signal: SELL | SMA9=174.29 SMA21=177.58 | RSI=53.96
+2026-04-08 10:19:40,362 [INFO] __main__ — No position to exit for NVDA
+2026-04-08 10:19:40,364 [INFO] __main__ — Sleeping 60s...
+
+2026-04-08 10:20:40,460 [INFO] __main__ — --- Processing AAPL ---
+2026-04-08 10:20:40,515 [INFO] data — Fetched 41 bars for AAPL
+2026-04-08 10:20:40,519 [INFO] strategy — Signal: BUY | SMA9=253.80 SMA21=253.40 | RSI=52.83
+2026-04-08 10:20:40,555 [INFO] __main__ — HOLD AAPL — already in position or max positions reached
+2026-04-08 10:20:40,556 [INFO] __main__ — --- Processing TSLA ---
+2026-04-08 10:20:40,605 [INFO] data — Fetched 41 bars for TSLA
+2026-04-08 10:20:40,610 [INFO] strategy — Signal: SELL | SMA9=361.34 SMA21=377.67 | RSI=36.10
+2026-04-08 10:20:40,643 [INFO] __main__ — No position to exit for TSLA
+2026-04-08 10:20:40,644 [INFO] __main__ — --- Processing NVDA ---
+2026-04-08 10:20:40,709 [INFO] data — Fetched 41 bars for NVDA
+2026-04-08 10:20:40,713 [INFO] strategy — Signal: SELL | SMA9=174.29 SMA21=177.58 | RSI=53.96
+2026-04-08 10:20:40,748 [INFO] __main__ — No position to exit for NVDA
+2026-04-08 10:20:40,750 [INFO] __main__ — Sleeping 60s...
+
+2026-04-08 10:21:40,832 [INFO] __main__ — --- Processing AAPL ---
+2026-04-08 10:21:40,883 [INFO] data — Fetched 41 bars for AAPL
+2026-04-08 10:21:40,886 [INFO] strategy — Signal: BUY | SMA9=253.82 SMA21=253.41 | RSI=52.99
+2026-04-08 10:21:40,931 [INFO] __main__ — HOLD AAPL — already in position or max positions reached
+2026-04-08 10:21:40,931 [INFO] __main__ — --- Processing TSLA ---
+2026-04-08 10:21:40,994 [INFO] data — Fetched 41 bars for TSLA
+2026-04-08 10:21:40,998 [INFO] strategy — Signal: SELL | SMA9=361.32 SMA21=377.66 | RSI=35.99
+2026-04-08 10:21:41,035 [INFO] __main__ — No position to exit for TSLA
+2026-04-08 10:21:41,035 [INFO] __main__ — --- Processing NVDA ---
+2026-04-08 10:21:41,088 [INFO] data — Fetched 41 bars for NVDA
+2026-04-08 10:21:41,094 [INFO] strategy — Signal: SELL | SMA9=174.30 SMA21=177.59 | RSI=54.14
+2026-04-08 10:21:41,129 [INFO] __main__ — No position to exit for NVDA
+2026-04-08 10:21:41,131 [INFO] __main__ — Sleeping 60s...
+
+2026-04-08 10:22:41,253 [INFO] __main__ — --- Processing AAPL ---
+2026-04-08 10:22:41,320 [INFO] data — Fetched 41 bars for AAPL
+2026-04-08 10:22:41,327 [INFO] strategy — Signal: BUY | SMA9=253.85 SMA21=253.42 | RSI=53.30
+2026-04-08 10:22:41,363 [INFO] __main__ — HOLD AAPL — already in position or max positions reached
+2026-04-08 10:22:41,363 [INFO] __main__ — --- Processing TSLA ---
+2026-04-08 10:22:41,408 [INFO] data — Fetched 41 bars for TSLA
+2026-04-08 10:22:41,412 [INFO] strategy — Signal: SELL | SMA9=361.32 SMA21=377.67 | RSI=36.03
+2026-04-08 10:22:41,447 [INFO] __main__ — No position to exit for TSLA
+2026-04-08 10:22:41,447 [INFO] __main__ — --- Processing NVDA ---
+2026-04-08 10:22:41,496 [INFO] data — Fetched 41 bars for NVDA
+2026-04-08 10:22:41,501 [INFO] strategy — Signal: SELL | SMA9=174.32 SMA21=177.59 | RSI=54.27
+2026-04-08 10:22:41,536 [INFO] __main__ — No position to exit for NVDA
+2026-04-08 10:22:41,538 [INFO] __main__ — Sleeping 60s...
+
+2026-04-08 10:23:41,625 [INFO] __main__ — --- Processing AAPL ---
+2026-04-08 10:23:41,673 [INFO] data — Fetched 41 bars for AAPL
+2026-04-08 10:23:41,678 [INFO] strategy — Signal: BUY | SMA9=253.83 SMA21=253.41 | RSI=53.18
+2026-04-08 10:23:41,714 [INFO] __main__ — HOLD AAPL — already in position or max positions reached
+2026-04-08 10:23:41,715 [INFO] __main__ — --- Processing TSLA ---
+2026-04-08 10:23:41,763 [INFO] data — Fetched 41 bars for TSLA
+2026-04-08 10:23:41,767 [INFO] strategy — Signal: SELL | SMA9=361.40 SMA21=377.70 | RSI=36.43
+2026-04-08 10:23:41,803 [INFO] __main__ — No position to exit for TSLA
+2026-04-08 10:23:41,804 [INFO] __main__ — --- Processing NVDA ---
+2026-04-08 10:23:41,857 [INFO] data — Fetched 41 bars for NVDA
+2026-04-08 10:23:41,860 [INFO] strategy — Signal: SELL | SMA9=174.34 SMA21=177.60 | RSI=54.55
+2026-04-08 10:23:41,894 [INFO] __main__ — No position to exit for NVDA
+2026-04-08 10:23:41,896 [INFO] __main__ — Sleeping 60s...
+
